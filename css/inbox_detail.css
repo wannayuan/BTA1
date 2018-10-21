@@ -1,0 +1,203 @@
+/*iframe{
+	background-color: #fafafa;
+}*/
+.Form{
+    margin-bottom: 50px;
+    width: 99%;
+    margin-left:1%;
+/*    max-height: 727px;*/
+    padding-right: 20px;
+}
+.Form_head{
+	height: 38px;
+/*    background-color: #fafafa;*/
+}
+.Form_head span{
+	 font-size: 16px;
+    line-height: 38px;
+    font-weight: 550;
+}
+button{
+	font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    background-color: #6377f0;
+    color: #fff;
+    float: right;
+    margin-left:20px;
+    padding: 4px 8px;
+    border:none;
+}
+.Form_table{
+	padding: 26px 0px;
+	width: 100%;
+}
+table{
+    width:100%;
+}
+.Assigned{
+    margin: 20px 0px;
+}
+.Assigned #book:hover{
+	cursor: pointer;
+}
+.Assigned input:focus{
+	outline-style: none;
+	border-bottom: 1px solid #dddddd;
+}
+.Assigned input{
+	display: inline-block;
+	width: 60%;
+	border: none;
+	border-bottom: 1px solid #dddddd;
+}
+span.Approver{
+	line-height:40px;
+}
+.Form_head span{
+	padding: 10px 20px;
+    margin-right: 20px;
+    color: #636363;
+    font-size: 14px;
+}
+.Form_head .checked{
+    border-bottom: 2px solid #6f85e7;
+    color: #6f85e7;
+}
+.actions{
+	margin-top: 40px;
+}
+.Form_head span:hover{
+	cursor: pointer;
+}
+#Booking,#Advance,#Claim{
+	display: none;
+}
+.child-box{
+	margin-bottom: 30px;
+}
+.child-box table{
+    line-height: 30px;
+    font-size: 14px;
+    margin: 10px 0px 15px 0px;
+}
+.child-box table td{
+	padding-left:20px;
+}
+.child-container p{
+    line-height:25px;
+}
+.child-container table{
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    margin: 8px 0px 15px 0px;
+}
+.child-container table tr{
+	border-bottom: 1px solid #ddd;
+}
+.child-box td>img{
+  margin-left:-15px;
+}
+.child-box td>span:nth-child(2){
+	padding-left: 10px;
+	color: #808080;
+}
+.child-box .normal-table tr,.child-container .normal-table{
+    background-color: #FFEAE5;
+    border: none;
+    line-height: 25px;
+    margin: 4px;
+}
+.child-box .details-table td{
+   padding:0px;
+}
+.child-box .details-table,.child-box .details-table tr{
+	border:none;
+	font-size: 14px;
+}
+p{
+    line-height: 23px;
+    margin: 0px;
+}
+p.warning,p>span.warning{
+	color:red;
+	font-size:12px;
+}
+p>span{
+	font-size:16px;
+    color: #636363;
+}
+.details-table textarea{
+	width: 100%;
+    min-width: 20px;
+    text-indent: 12px;
+    border: 1px solid #ccc;
+    background-color: #FFEAE5;
+}
+.child-box .warning{
+	font-size: 12px;
+	line-height: 20px;
+	margin:0px;
+}
+.collapse_img:hover{
+	cursor:pointer;
+}
+.had_collapse{
+	background-color: #3f466b;
+	color: #ffffff;
+	margin:5px 0px;
+	line-height:30px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.page4  table.detail-table td[colspan="2"]{
+    border: 1px solid #ddd;
+    background-color: #3f466b;
+    text-align: right;
+    padding-right: 5px;
+    white-space: pre;
+    color: #fff;
+}
+.summary{
+    background-color: #ffeae5;
+    padding:1% 0 1% 1%;
+}
+.summary>table{
+	background-color: #ffeae5;
+    border: none;
+    margin: 0px;
+}
+.summary table tr{
+	border-bottom: none;
+}
+.summary>table td{
+	width: 33%;
+	padding-right:1%; 
+	padding-left:0px;
+	vertical-align: top;
+}
+.summary>table table{
+	margin:0px; 
+	min-height: 100px;
+}
+.summary>table table td{
+	padding-left: 20px;
+	border-bottom: 1px solid #eee;
+}
+.remark{
+	margin-top: -11px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+td.sum{
+	max-width:200px;
+    /*文本溢出包含元素时发生的事情，显示以省略符号来代替被修建的文本*/
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	position: relative;
+}
+td.sum:hover{
+    cursor: pointer;
+}

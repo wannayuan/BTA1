@@ -1,0 +1,306 @@
+/*iframe{
+	background-color: #fafafa;
+}*/
+.Form{
+	width:95%;
+	margin:auto;
+	margin-bottom: 50px;
+}
+.Form_head{
+	height: 38px;
+/*    background-color: #fafafa;*/
+}
+.Form_head span{
+	 font-size: 16px;
+    line-height: 38px;
+    font-weight: 550;
+}
+button{
+	font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    background-color: #6377f0;
+    color: #fff;
+    float: right;
+    margin-left:20px;
+    padding: 4px 8px;
+    border:none;
+}
+.Form_table{
+	padding: 26px 0px;
+	width: 100%;
+}
+table{
+    width:100%;
+}
+.first-step,.second-step,.third-step,.forth-step,.fifth-step{
+	margin-top: 20px;
+}
+.first-step table td{
+	width: 35%;
+}
+.Form_table input:focus{
+   outline-color: #dddddd;
+   border-bottom: none;
+}
+.Form_table select:focus,.Form_table textarea:focus,.Form_table button:focus{
+   outline-style: none;
+}
+.first-step label,forth-step label{
+	padding-top: 10px;
+}
+.first-step input,select,.forth-step input{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    display: block;
+    width: 80%;
+    height: 30px;
+}
+.first-step input[disabled],.forth-step input[disabled]{
+	border: none;
+    background-color: #F1F6FE;
+}
+.second-step table td:first-child{
+	width:70%;
+}
+.second-step lable,.second-step input{
+	margin-right:10px;
+}
+.second-step .tip{
+	font-style: italic;
+	line-height:25px;
+}
+.second-step select{
+	background-color: #F1F6FE;
+	width: 150px;
+    display: inline-block;
+    text-align: center;
+}
+.second-step textarea{
+	height: 100px;
+	width: 100%;
+	background-color:#F1F6FE;
+	border: none;
+}
+.third-step{
+    background-color: #F1F6FE;
+}
+.step-box{
+	position: relative;
+	padding-bottom: 40px;
+	background-color: #F1F6FE;
+}
+.third-step,.step-box p{
+/*	background-color: #ffffff;*/
+}
+.step-box p.height40{
+	height: 60px;
+    line-height: 80px;
+}
+.step-box table{
+/*	margin:0px 10px;*/
+   margin:5px; 
+}
+.third-step table select{
+	width: 70px;
+	height: 20px;
+    margin-right:10px;
+}
+.third-step table input{
+	width: 80%;
+	height: 20px;
+    margin-bottom: 5px;
+}
+.step-box input[type=button]{
+	background-color: #2d69eb;
+    color: #fff;
+    width: 60px;
+    height: 28px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-top: 20px;
+}
+.third-step input[type=radio]{
+	width: inherit;
+}
+.Form_footer button{
+	margin:14px 0px 0px 0px;
+}
+.forth-step .step-box input,select{
+	height:20px;
+	margin-bottom: 5px;
+}
+.Assigned{
+    margin: 20px 0px;
+}
+.Assigned #book:hover{
+	cursor: pointer;
+}
+.Assigned input:focus{
+	outline-style: none;
+	border-bottom: 1px solid #dddddd;
+}
+.Assigned input{
+	display: inline-block;
+	width: 60%;
+	border: none;
+	border-bottom: 1px solid #dddddd;
+}
+span.Approver{
+	line-height:40px;
+}
+.Form_head span{
+	padding: 10px 20px;
+    margin-right: 20px;
+    color: #636363;
+    font-size: 14px;
+}
+.Form_head .checked{
+    border-bottom: 2px solid #6f85e7;
+    color: #6f85e7;
+}
+.fifth-step p{
+	font-size: 18px;
+    margin: 20px 0px 10px 0px;
+}
+.fifth-step table{
+	border: 1px solid #dddddd;
+    border-bottom: none;
+    line-height: 30px;
+}
+.fifth-step table tr{
+	border-bottom: 1px solid #dddddd;
+}
+.fifth-step table td{
+	padding-left: 10px;
+	width: 25%;
+}
+.actions{
+	margin-top: 40px;
+}
+.Form_head span:hover{
+	cursor: pointer;
+}
+#Booking,#Advance,#Claim{
+	display: none;
+}
+.child-box{
+	margin-bottom: 30px;
+}
+.child-box table{
+    line-height: 30px;
+    font-size: 14px;
+    margin: 10px 0px 15px 0px;
+}
+.child-box table td{
+	padding-left:20px;
+}
+.child-container p{
+    line-height:25px;
+}
+.child-container table{
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    margin: 8px 0px 15px 0px;
+}
+.child-container table tr{
+	border-bottom: 1px solid #ddd;
+}
+.child-box td>img{
+  margin-left:-15px;
+}
+.child-box td>span:nth-child(2){
+	padding-left: 10px;
+	color: #808080;
+}
+p.change-title{
+	font-size: 22px;
+}
+.child-box .normal-table tr,.child-container .normal-table{
+    background-color: #FFEAE5;
+    border: none;
+    line-height: 25px;
+    margin: 4px;
+}
+.child-box .details-table td{
+   padding:0px;
+}
+.child-box .details-table,.child-box .details-table tr{
+	border:none;
+	font-size: 14px;
+}
+p{
+    line-height: 23px;
+    margin: 0px;
+}
+p.warning,p>span.warning{
+	color:red;
+	font-size:12px;
+}
+p>span{
+	font-size:16px;
+    color: #636363;
+}
+.details-table textarea{
+	width: 100%;
+    min-width: 20px;
+    text-indent: 12px;
+    border: 1px solid #ccc;
+    background-color: #FFEAE5;
+}
+.child-box .warning{
+	font-size: 12px;
+	line-height: 20px;
+	margin:0px;
+}
+.collapse_img:hover{
+	cursor:pointer;
+}
+.had_collapse{
+	background-color: #3f466b;
+	color: #ffffff;
+	margin:5px 0px;
+	line-height:40px;
+    height: 40px;
+    padding-left: 10px;
+}
+.page4  table.detail-table td[colspan="2"]{
+    border: 1px solid #ddd;
+    background-color: #3f466b;
+    text-align: right;
+    padding-right: 5px;
+    white-space: pre;
+    color: #fff;
+}
+.summary{
+    background-color: #ffeae5;
+    padding:1% 0 1% 1%;
+}
+.summary>table{
+	background-color: #ffeae5;
+    border: none;
+    margin: 0px;
+}
+.summary table tr{
+	border-bottom: none;
+}
+.summary>table td{
+	width: 33%;
+	padding-right:1%; 
+	padding-left:0px;
+	vertical-align: top;
+}
+.summary>table table{
+	margin:0px; 
+	min-height: 100px;
+}
+.summary>table table td{
+	padding-left: 20px;
+	border-bottom: 1px solid #eee;
+}
+.remark{
+	margin-top: -11px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}

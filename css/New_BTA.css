@@ -1,0 +1,239 @@
+*{
+   font-family:"Helvetica Neue","Helvetica,Arial,sans-serif";
+   font-family: "微软雅黑";
+}
+label{
+    font-weight: normal;
+}
+/*iframe{
+	background-color: #fafafa;
+}*/
+.Form{
+    width: 100%;
+    margin: auto;
+    max-height: 758px;
+    padding-right: 16px;
+}
+.Form_head{
+	height: 38px;
+    margin-right:18px;
+}
+.Form_head span{
+	 font-size: 16px;
+    line-height: 38px;
+    font-weight: 550;
+}
+button{
+	font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    background-color: #6377f0;
+    color:#ffffff;
+    float: right;
+    margin-left:20px;
+    padding: 4px 8px;
+    border:none;
+}
+.Form_body{
+    box-shadow: 0px 0px 5px #ccc;
+	border-radius: 10px; 
+}
+.Form_table{
+	padding: 26px;
+	width: 100%;
+}
+table{
+    width:100%;
+}
+.first-step,.second-step,.third-step,.forth-step,.fifth-step{
+	margin-top: 20px;
+}
+.first-step table td{
+	width: 35%;
+}
+.Form_table input:focus{
+   outline-color: #dddddd;
+   border-bottom: none;
+}
+.Form_table select:focus,.Form_table textarea:focus,.Form_table button:focus{
+   outline-style: none;
+}
+.first-step label,forth-step label{
+	padding-top: 10px;
+	font-size: 12px;
+}
+.first-step input,select,.forth-step input{
+    border: none;
+    border: 1px solid #ddd;
+    display: block;
+    width:240px;
+    height: 28px;
+    margin-bottom: 5px;
+    background-color: inherit;
+}
+.first-step input[disabled],.forth-step input[disabled]{
+	border: none;
+    background-color:#f1f1f1;
+}
+p{
+    line-height: 20px;
+    margin: 0px;
+}
+.Form_table{
+    font-size: 14px;
+}
+p.warning{
+	color:red;
+	font-size:12px;
+}
+p>span{
+	font-size:14px;
+	color:#636363;
+}
+.second-step table td:first-child{
+	width:70%;
+}
+.second-step lable,.second-step input{
+	margin-right:10px;
+	font-size: 14px;
+}
+.second-step .tip{
+	font-style: italic;
+	line-height:25px;
+}
+.second-step select{
+	width: 150px;
+    display: inline-block;
+    text-align: center;
+}
+.second-step textarea{
+	height: 100px;
+	width: 100%;
+	border: none;
+	border:1px solid #eee;
+	text-indent: 10px;
+}
+/*.third-step{
+   background-color: #fefdf4;
+}*/
+.step-box{
+	position: relative;
+	padding-bottom: 40px;
+}
+/*.third-step,.step-box p{
+	background-color: #fefdf4;
+}*/
+.step-box p.height40{
+	height: 60px;
+    line-height: 80px;
+}
+.step-box table{
+   margin-top:8px;
+   box-shadow: 3px 3px 5px #eee,-3px -3px 5px #eee;
+}
+.step-box table tr>td:first-child{
+   padding-left: 10px;
+}
+.third-step table select{
+	width: 75px;
+	height: 26px;
+    margin:4px;
+}
+.third-step table input{
+	width: 80%;
+	height: 26px;
+    margin: 4px 0px;
+    line-height: 10px;
+}
+.third-step table input:focus{
+	outline-style: none;
+	border:1px solid #a9a9a9;
+}
+.step-box input[type=button]{
+	background-color:#6377f0;
+    color: #fff;
+    width: 60px;
+    height: 28px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-top: 20px;
+}
+.third-step input[type=radio]{
+	width: inherit;
+	vertical-align: middle;
+    margin-right: 3px;
+}
+.tab td span>img{
+	width: 18px;
+	height: 18px;
+	margin-right: 15px;
+    float: right;
+}
+.Form_footer button{
+	margin:14px 0px 0px 0px;
+}
+.forth-step .step-box table input,select{
+	height:28px;
+	margin:4px 0px;
+}
+.Assigned{
+    margin: 15px 0px;
+}
+.Assigned input{
+	border: none;
+    border-bottom: 1px solid #ddd;
+}
+.Assigned #book:hover{
+	cursor: pointer;
+}
+.Assigned input:focus{
+	outline-style: none;
+	border-bottom: 1px solid #dddddd;
+}
+.Assigned input{
+	display: inline-block;
+	width: 60%;
+}
+span.Approver{
+	line-height:40px;
+	display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #6f85e7;
+}
+#submit,#logout{
+	display: none;
+}
+.tab tr td span.add-on{
+	margin-left: 4px;
+}
+.tab tr td span.add-on img{
+	margin-top: -8px;
+}
+.tab tbody tr:nth-child(1)>td span.add-on{
+	margin-left: 0px;
+}
+.tab tr td label{
+	margin-left: 4px;
+	margin-right:5px;
+}
+.tab tbody tr:nth-child(1)>td label{
+	margin-left: 0px;
+    margin-right: 0px;
+}
+.fifth-step table{
+    line-height: 30px;
+    padding-left: 10px;
+    border:1px solid #eee;
+    margin-top: 8px;
+}
+.fifth-step table tbody tr{
+	border-bottom: 1px solid #eee;
+}
+.fifth-step table tbody td{
+	padding-left: 10px;
+}
+.step_button{
+  margin-right: 18px;
+}
